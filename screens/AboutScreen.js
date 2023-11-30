@@ -1,8 +1,5 @@
 import { ScrollView, Text } from 'react-native';
-//import { PARTNERS } from '../shared/partners'; 
-import { Card } from 'react-native-elements';
-//import { useState } from 'react';
-import { Avatar, ListItem } from 'react-native-elements';
+import { Avatar, Card, ListItem } from 'react-native-elements';
 import { useSelector } from 'react-redux';
 import { baseUrl } from '../shared/baseUrl';
 

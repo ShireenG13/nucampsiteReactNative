@@ -32,6 +32,6 @@ const ContactScreen = () => {
             
         </ScrollView>
     );
-}
+};
 
 export default ContactScreen;

@@ -39,7 +39,7 @@ const HomeScreen = () => {
     const featPartner = partners.partnersArray.find((item) => item.featured);
     return (
         <ScrollView>
-            <FeaturedItem item={featCampsite}/>
+            <FeaturedItem item={featCampsite}/> 
             <FeaturedItem item={featPromotion}/>
             <FeaturedItem item={featPartner}/>
         </ScrollView>
