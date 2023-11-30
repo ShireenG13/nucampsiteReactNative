@@ -1,15 +1,14 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit';
 import { campsitesReducer } from '../features/campsites/campsitesSlice';
-import { commentsSlice } from '../features/comments/commentsSlice';
-import { partnersSlice } from '../features/partners/partnersSlice';
-import { promotionsSlice } from '../features/promotions/promotionsSlice';
+import { commentsReducer } from '../features/comments/commentsSlice';
+import { partnersReducer } from '../features/partners/partnersSlice';
+import { promotionsReducer } from '../features/promotions/promotionsSlice';
 
-export const store = configureStore( {
+export const store = configureStore({
     reducer: {
         campsites: campsitesReducer,
         comments: commentsReducer,
         partners: partnersReducer,
         promotions: promotionsReducer
     }
-
-}); 
+});
